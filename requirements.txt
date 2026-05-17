@@ -21,7 +21,5 @@ groq==0.8.0
 huggingface-hub==0.23.0
 transformers==4.41.2
 
-protobuf==3.20.3
-
-grpcio==1.62.2
-grpcio-status==1.62.2
+setuptools>=68.0.0
+wheel
