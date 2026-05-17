@@ -25,38 +25,6 @@ Nexus AI allows users to query custom documents using natural language by combin
 
 # 🏗 Architecture
 
-```mermaid
-graph TD
-    %% Indexing Pipeline
-    subgraph Indexing
-        A[Documents] -->|Chunking| B[Chunks]
-        B -->|Vectorize| C[Embedding Model]
-        C --> D[{...}]
-        D -->|Indexing| E[(Vector Database)]
-    end
-
-    %% Retrieval & Generation Pipeline
-    U((User)) --> F[Query]
-    F -->|Vectorize| G[Embedding Model]
-    G --> H[{...}]
-    H -->|Search| E
-    E -->|Retrieve| I[Relevant Contexts]
-    
-    subgraph Augment
-        F
-        J[Prompts]
-        I
-    end
-    
-    Augment --> K[LLM]
-    K -->|Generate| L[Response]
-    L --> U
-    
-    style U fill:#00d2ff,stroke:#00a3cc,color:#fff
-    style F fill:#00d2ff,stroke:#00a3cc,color:#fff
-    style H fill:#00d2ff,stroke:#00a3cc,color:#fff
-```
-
 The system follows a modular RAG pipeline architecture:
 
 1. Documents are loaded from the `/docs` directory
