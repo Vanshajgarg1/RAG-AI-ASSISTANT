@@ -1,0 +1,10 @@
+IBM Multi-Agent Systems Overview
+
+Multi-agent systems (MAS) are a core component of modern AI architectures. IBM emphasizes the use of collaborative AI agents to solve complex enterprise problems. In an IBM multi-agent ecosystem, agents can take on specialized roles such as data retrieval, planning, execution, and validation.
+
+Key benefits include:
+- Scalability: Agents can be distributed across different computing environments.
+- Modularity: Each agent is developed and maintained independently.
+- Resilience: The system can continue functioning even if one agent fails.
+
+By leveraging large language models (LLMs), these agents can communicate using natural language protocols, reducing the friction in integrating disparate systems.

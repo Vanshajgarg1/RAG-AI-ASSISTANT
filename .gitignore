@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Vector Database
+chroma_db/
+faiss_index/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Streamlit
+.streamlit/
+
+# macOS
+.DS_Store
+
+# Uploaded documents (optional: remove if you want to push test docs)
+# docs/
