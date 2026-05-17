@@ -5,21 +5,18 @@ langchain-core==0.2.5
 langchain-community==0.2.4
 langchain-groq==0.1.6
 langchain-chroma==0.1.2
-langchain-huggingface==0.0.3
 
 chromadb==0.5.3
 
 sentence-transformers==2.7.0
 
 python-dotenv==1.0.1
-pydantic-settings==2.2.1
-
 pypdf==4.2.0
 
-groq==0.8.0
-
-huggingface-hub==0.23.0
 transformers==4.41.2
+huggingface-hub==0.23.0
+
+Pillow==10.3.0
 
 setuptools>=68.0.0
 wheel
