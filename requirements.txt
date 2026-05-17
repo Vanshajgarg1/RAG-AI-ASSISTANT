@@ -13,3 +13,5 @@ sentence-transformers==2.7.0
 python-dotenv==1.0.1
 
 pypdf==4.2.0
+
+Pillow==10.4.0
