@@ -312,4 +312,4 @@ st.markdown("""
     Nexus AI Platform &copy; 2026 | Powered by Groq & LangChain
 </div>
 """, unsafe_allow_html=True)
-change the code
+
